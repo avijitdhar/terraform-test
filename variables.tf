@@ -12,7 +12,7 @@ variable "target-group" {
   default = "arn:aws:elasticloadbalancing:us-east-1:336640382051:targetgroup/use-tgp-myseerp-dit-midoffice1/a9a2e71f831d02ed"
 }
 variable "app_port" {
-  default = "9080"
+  default = "15010"
 }
 variable "app2_port" {
   default = "8090"
